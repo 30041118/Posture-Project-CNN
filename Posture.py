@@ -153,7 +153,7 @@ def analyze_posture_from_image(image_path):
         return None
 
 def main():
-    image_path = "C:/University Work - Year 3/20241111_114655.jpg" #image input here
+    image_path = "C:/University Work - Year 3/Posture processing/20241111_114655.jpg" #image input here
     results = analyze_posture_from_image(image_path)
 
     if results:
